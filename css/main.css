@@ -1,6 +1,10 @@
 html {
   box-sizing: border-box;
   text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -26,7 +30,6 @@ a:hover,
 a:focus {
   color: #acc300;
 }
-
 
 .icon {
   position: relative;
